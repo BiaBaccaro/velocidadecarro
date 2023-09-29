@@ -9,16 +9,19 @@
 
     <?php
 
-    $velocidade = 40;
+    //variável
+    $velocidade = 70;
+
+    //Verifica a velocidade do carro
     if ($velocidade >= 41 && $velocidade <= 50) {
         echo "Você esta na velocidade correta";
-    } elseif ($velocidade = 40) {
+    } elseif ($velocidade < 51) {
         echo "Atenção";
-    } elseif ($velocidade > 50) {
+    } elseif ($velocidade > 60) {
         echo "Você foi multado";
     }
 
     ?>
-    
+
 </body>
 </html>
